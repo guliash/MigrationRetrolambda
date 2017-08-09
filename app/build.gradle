@@ -21,7 +21,6 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile project(':models')
     compile project(':commons')
 
     compile 'com.android.support:appcompat-v7:26.+'
